@@ -15,5 +15,7 @@ namespace DateAppv4.Data
 
         public DbSet<AppUser> Users { get; set; }
 
+        public DbSet<People> People { get; set; }
+
     }
 }

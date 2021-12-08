@@ -33,6 +33,8 @@ namespace DateAppv4.Controllers
                 return BadRequest("Username is taken");
             }
             using var hmac = new HMACSHA512();
+
+            List<int> res = new List<int>();
             
             var user = new AppUser {
                 UserName = registerDto.Username,
