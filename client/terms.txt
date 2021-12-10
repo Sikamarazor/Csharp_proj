@@ -1,0 +1,6 @@
+// Single page application - it means we have one single page, we navigate between components 
+                                rather navigate between pages compared to a traditional website
+
+// pathMatch: 'full' if doesnt match, then should go home
+
+// Route guard - stop users from using path to navigate to a page without proper auth
